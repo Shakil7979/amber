@@ -1,0 +1,193 @@
+
+@media all and (min-width: 991px){
+	.menu ul{
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 991px){
+	.menu ul { 
+		flex-direction: column;
+		display: none; 
+		background: #02BAAB;  
+	}
+	.logo { 
+		padding: 3rem 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.nav-icon{
+		display: block;
+	}
+	.menu ul li:nth-child(1) a,
+	.menu ul li:nth-child(2) a,
+	.menu ul li:nth-child(3) a,
+	.menu ul li:nth-child(4) a,
+	.menu ul li:nth-child(5) a,
+	.menu ul li:nth-child(6) a,
+	.menu ul li:nth-child(7) a{
+		border: none;
+		padding:1rem 1rem;
+	} 
+	.purches { 
+		flex-direction: column;
+		text-align: center;
+	}
+	.purches #btn-2 {
+		display: inline-block;
+		width: 18rem;
+		margin-top: 1rem;
+	}
+	.ex-item::after { 
+		display: none;
+	}
+	.team-item { 
+		margin-bottom: 3rem;
+	}
+
+	/*======blog masonry responsive========*/
+	.blog { 
+		flex-direction: column;
+		text-align: center;
+	}
+	.blog-right {
+		margin-top: 2.5rem;
+	}
+	.masonry-comments ul { 
+		 padding: 0; 
+	}
+
+}
+
+@media all and (max-width: 767px){
+	.section-padding {
+		padding: 3rem 0;
+	}
+	.section-title h2 {
+		margin-bottom: 6rem; 
+	} 
+	.testi-content h2 { 
+		max-width: 90%; 
+	}
+	.single-blog { 
+		margin-bottom: 4rem;
+	}
+	.expriance {
+		margin-bottom: 4rem;
+	}
+	.footer-left{
+		margin-top: 2rem;
+	}  
+	.search-top {
+	  display: block;
+	} 
+	.top-left-block{
+  		display: none;
+  		width: 50%;
+  		margin: 0 auto;
+	} 
+	.top-left [type="search"] {
+		width: 100%; 
+	}
+	.top-left i { 
+		right: 3.2%; 
+	}
+	.top-right ul { 
+		justify-content: center;
+	}
+	.footer-left { 
+		text-align: center;
+	}
+	.footer-right {
+		text-align: center !important;
+		margin-top: 2rem;
+	} 
+	.member-name {
+		width: 47%; 
+	}
+	/*======blog masonry responsive========*/
+	.blog-item {
+		column-count: 1;
+	}
+	.masonry-comments ul {
+		padding: 3rem;
+	}
+	/*======blog gird responsive========*/
+	.releted-post { 
+		flex-direction: column;
+		text-align: center;
+	}
+	/*======portfolio masonry responsive========*/
+	.masonry-btn {
+		width: 38%;
+	}
+} 
+@media all and (max-width: 576px){
+	.top-right ul li {
+		margin: 0 1rem !important;
+	} 
+	.mfp-close { 
+		display: none !important;
+	} 
+	.mfp-wrap {
+		top: 54px;  
+		height: 33%;    
+		background: #02BAAB;
+	}
+	.banner-content { 
+		padding: 20rem 0 15rem; 
+	}
+	.banner-btn {
+		margin-top: 6rem;
+	}
+	.section-title p {
+		max-width: 90%; 
+	}
+	.banner-info h2 {
+		font-size: 3rem; 
+	}
+	.banner-btn {
+		margin-top: 6rem !important; 
+		flex-direction: column; 
+		margin: 0 auto;
+		max-width: 51%;
+	}
+	.footer-left p { 
+		line-height: 2rem;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+	.footer-right {
+		text-align: center !important;
+		margin-top: 2rem;
+	}
+	.member-name {
+		width: 63%; 
+	}
+	/*======blog masonry responsive========*/
+	.blog-left ul { 
+		flex-direction: column;
+	}
+	.blog-left ul li { 
+		margin-bottom: 1rem;
+	}
+	.blog-right ul li a { 
+		padding: 1rem 1rem; 
+	}
+	.blog-left ul { 
+		margin-top: 2rem;
+	}
+	/*======Portfolio masonry responsive========*/
+	.portfolio-column {
+		column-count: 1;
+	}
+	.portfolio-menu { 
+		flex-direction: column;
+	}
+	.portfolio-menu button {  
+		width: 14%;
+		margin:0.2rem auto;
+	}
+
+}
