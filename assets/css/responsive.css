@@ -56,7 +56,7 @@
 	}
 	.masonry-comments ul { 
 		 padding: 0; 
-	}
+	} 
 
 }
 
@@ -122,6 +122,9 @@
 	.masonry-btn {
 		width: 38%;
 	}
+	.portfolio-single-img {
+		height: 63rem;
+	}
 } 
 @media all and (max-width: 576px){
 	.top-right ul li {
@@ -183,11 +186,18 @@
 		column-count: 1;
 	}
 	.portfolio-menu { 
-		flex-direction: column;
+		flex-wrap: wrap;
 	}
 	.portfolio-menu button {  
 		width: 14%;
 		margin:0.2rem auto;
+	}
+	.blog-right ul { 
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.portfolio-single-img {
+		height: 34rem;
 	}
 
 }
